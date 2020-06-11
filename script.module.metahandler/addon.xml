@@ -11,11 +11,7 @@
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
-  <news>
-Nenhuma, o Palmeiras continua sem MUNDIAL...kkk
-        </news>
     <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-    <description lang="en">Esse Add-on pertence a BUILD TONYWARLLEY, se você instalou esse add-on e não possui a BUILD TONYWARLLEY, está correndo sério risco de ter seu dispositivo infectado por VÍRUS, não baixe Add-ons que não sejam Oficial, Add-ons Oficiais somente no CANAL TONY WARLLEY TUTORIAIS.</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <platform>all</platform>
