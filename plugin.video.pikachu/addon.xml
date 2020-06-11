@@ -16,33 +16,20 @@
 	<import addon="plugin.video.SportsDevil" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />    
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-    <import addon="script.module.t0mm0.common"/>
-    <import addon="script.common.plugin.cache"/>
-    <import addon="script.module.metahandler"/>
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
- 
- <extension point="xbmc.addon.repository" name="Repositorio Pikachu">
-		<info compressed="false">http://raw.github.com/repopikachu/repository.pika/master/addons.xml</info>
-		<checksum>http://raw.github.com/repopikachu/repository.pika/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/repopikachu/repository.pika/master/repo/</datadir>
-	</extension>
+  
+  	
   <extension point="xbmc.addon.metadata">
     <summary>[B][COLOR yellow] PIKACHU [COLOR lime] ENTRETENIMENTOS!!![/COLOR][/B]</summary>
     <description>
        [B]Atenção:[B][I][COLOR yellow] Os conteúdos disponibilizados neste ADDON, são conteúdos retransmitidos de internet e outras plataformas digitais;[/B][/I][/COLOR] [I][B][COLOR blue]Grupo Telegram:[/B][/I][/COLOR][B][I][COLOR white][tinyurl.com/grupopikachu ][/I][/B][/COLOR][B][I][COLOR yellow] | [COLOR blue]Channel Telegram:[/B][/I][/COLOR][B][I][COLOR white][t.me/addonpikachu][/B][/I][/COLOR][B][I][COLOR lime] Visite-nos No Telegram!!![/B][/I][/COLOR]
     </description>
-	 <assets>
-	<icon>icon.png</icon>
     <platform>all</platform>
-	 <screenshot>resources/screenshots/01.jpg</screenshot>
-    <screenshot>resources/screenshots/02.jpg</screenshot>
-    <screenshot>resources/screenshots/03.jpg</screenshot>
-	</assets>
   </extension>
              
 </addon>
